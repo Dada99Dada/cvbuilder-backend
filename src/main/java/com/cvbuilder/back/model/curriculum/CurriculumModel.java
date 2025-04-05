@@ -1,0 +1,18 @@
+package com.cvbuilder.back.model.curriculum;
+
+import java.util.List;
+import lombok.Data;
+
+@Data
+public class CurriculumModel {
+  private String id;
+  private String name;
+  private String phone;
+  private String address;
+  private String summary;
+  private List<ExperienceModel> experiences;
+  private List<EducationModel> educations;
+  private List<SkillModel> skills;
+  private List<LanguageModel> languages;
+  private List<CertificationModel> certifications;
+}
