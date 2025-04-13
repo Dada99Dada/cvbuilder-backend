@@ -21,7 +21,8 @@ public class CurriculumController {
   public ResponseEntity<CurriculumResponseModel> generateCv(
       @RequestBody CurriculumRequestModel request) {
 
-    CurriculumResponseModel response = CurriculumAssembler.createCurriculumResponse("link");
+    CurriculumResponseModel response =
+        CurriculumAssembler.createCurriculumResponse("davide", "link");
 
     return ResponseEntity.ok(response);
   }

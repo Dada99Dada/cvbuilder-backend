@@ -15,4 +15,5 @@ public class CurriculumModel {
   private List<SkillModel> skills;
   private List<LanguageModel> languages;
   private List<CertificationModel> certifications;
+  private List<SectionModel> sections;
 }
