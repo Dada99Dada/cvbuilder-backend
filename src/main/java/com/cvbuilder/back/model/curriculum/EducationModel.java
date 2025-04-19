@@ -6,6 +6,6 @@ import lombok.Data;
 public class EducationModel {
   private String institution;
   private String degree;
-  private long fromYear;
-  private long toYear;
+  private Long fromYear;
+  private Long toYear;
 }

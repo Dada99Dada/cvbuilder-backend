@@ -6,5 +6,5 @@ import lombok.Data;
 public class CertificationModel {
   private String name;
   private String issuer;
-  private long year;
+  private Long year;
 }

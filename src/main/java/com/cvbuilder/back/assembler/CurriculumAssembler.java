@@ -11,6 +11,6 @@ public class CurriculumAssembler {
   public static CurriculumResponseModel createCurriculumResponse(String name, String downloadLink) {
     String cvName = StringUtils.joinWith("_", "cv", name, System.currentTimeMillis());
 
-    return CurriculumResponseModel.builder().cvName(cvName).downloadLink(downloadLink).build();
+    return CurriculumResponseModel.builder().cvName(cvName).base64(downloadLink).build();
   }
 }

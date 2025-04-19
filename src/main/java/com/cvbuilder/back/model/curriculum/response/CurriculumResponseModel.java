@@ -7,5 +7,5 @@ import lombok.Getter;
 @Getter
 public class CurriculumResponseModel {
   String cvName;
-  String downloadLink;
+  String base64;
 }

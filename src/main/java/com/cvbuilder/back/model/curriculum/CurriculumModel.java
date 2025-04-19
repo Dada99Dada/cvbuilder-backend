@@ -5,8 +5,10 @@ import lombok.Data;
 
 @Data
 public class CurriculumModel {
-  private String id;
+  private String photoUrl;
   private String name;
+  private String lastName;
+  private String email;
   private String phone;
   private String address;
   private String summary;
